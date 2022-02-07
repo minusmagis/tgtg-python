@@ -78,6 +78,7 @@ class TgtgClient:
         headers = {
             "user-agent": self.user_agent,
             "accept-language": self.language,
+            "Accept": "",
             "Accept-Encoding": "gzip",
         }
         if self.access_token:
